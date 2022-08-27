@@ -1,12 +1,14 @@
 import math
+from random import shuffle
 from xmlrpc.client import boolean
 import numpy as np
+from shuffle import *
 
 def task1(a, b):
     return math.sqrt(max(a,b)) == min(a,b)
 
 def task2(a):
-    return max(a) # a — массив чисел
+    return max(a) # a пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
 
 def task3(n):
     a = np.arange(-n,n+1)
@@ -51,6 +53,10 @@ def task10(x1,y1,x2,y2):
 #print(*task6(3))
 #print(logical_statement())
 #print(task8(1,2))
-print(task10(10,34,3,10))
+#print(task10(10,34,3,10))
+
+a = [0,1,2,3]
+print(*shuffle1(a))
+
 
 

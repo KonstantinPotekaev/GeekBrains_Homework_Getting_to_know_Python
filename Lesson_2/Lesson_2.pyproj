@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>f9ac74c9-cd17-4486-b8f7-cc3f6fc470a0</ProjectGuid>
+    <ProjectGuid>74004e41-4409-48c2-831c-7a383fef5320</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lesson_1_2.py</StartupFile>
+    <StartupFile>Lesson_2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Lesson_1_2</Name>
-    <RootNamespace>Lesson_1_2</RootNamespace>
+    <Name>Lesson_2</Name>
+    <RootNamespace>Lesson_2</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,8 +21,8 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Lesson_2.py" />
     <Compile Include="shuffle.py" />
-    <Compile Include="Lesson_1_2.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
