@@ -43,11 +43,15 @@ def task3(k):
                 temp = str(i)
                 for j in temp:
                     s+=indexes[j]
-            s+='+'
+            s += ' + '
+    s += ' = 0'
     return s
 
+def task4(path1,path2):
+    print("Я могу это сделать, но на это уйдет около 20 минут, а это очень много...")
+        
 
 #print(task1(100))
 #print(*task2([1,1,2,3,4,4,5]))
 
-print(task3(10))
+#print(task3(10))
