@@ -13,4 +13,8 @@ def task1(n):
             i += 1
     return a
 
-print(task1(100))
+def task2(a):
+    return set(a)
+
+#print(task1(100))
+print(*task2([1,1,2,3,4,4,5]))
