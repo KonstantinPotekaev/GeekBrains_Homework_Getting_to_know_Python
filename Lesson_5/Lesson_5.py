@@ -1,0 +1,9 @@
+# -*- coding: cp1251 -*-
+
+def task1(text):
+    text = list(filter(lambda x: 'אבג' not in x, text.split()))
+    return " ".join(text)
+
+text = 'אבגדהו מממ דנד גגנאט אבג'
+print(task1(text))
+
