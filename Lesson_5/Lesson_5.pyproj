@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>49c740f2-781a-49cb-9629-e17e46b6a529</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Task3.py</StartupFile>
+    <StartupFile>Task4.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Lesson_5.py" />
+    <Compile Include="Task4.py" />
     <Compile Include="Task3.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
